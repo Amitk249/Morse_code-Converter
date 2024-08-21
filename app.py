@@ -17,13 +17,12 @@ MORSE_CODE_DICT = {
 }
 
 def string_to_morse(input_string):
-    """Convert a string to Morse code."""
     morse_code = []
     for char in input_string.upper():
         if char in MORSE_CODE_DICT:
             morse_code.append(MORSE_CODE_DICT[char])
         else:
-            morse_code.append('')  # for any character not in the dictionary
+            morse_code.append('') 
     return ' '.join(morse_code)
 
 @app.route('/')

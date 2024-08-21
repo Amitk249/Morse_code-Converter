@@ -11,7 +11,7 @@ This web application is a simple Morse Code Converter, built using Python (Flask
 
 ### Prerequisites
 
-- Python 3.x
+- Python 
 - Flask
 
 ### Installation
